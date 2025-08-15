@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>De mi, pa ti❤</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <div class="heart-container" aria-hidden="true"></div>
+    <div class="petal-container" aria-hidden="true"></div>
+    <div class="fireworks-container" aria-hidden="true"></div>
+    <div id="initial-screen" role="main" aria-label="Detalle inicial con regalo">
+      <div class="initial-content">
+        <h1 class="title-animate">Un detalle para la mujer más hermosa 💖</h1>
+        <p class="subtitle-animate">Preciona el regalo, espero te guste✨</p>
+        <img class="gift-img" src="https://i.pinimg.com/736x/9a/64/36/9a6436f9bf3ebb4655d15277bb444805.jpg" alt="Regalo especial">
+      </div>
+    </div>
+    <div id="gift-open-screen" role="main" aria-label="Detalle abierto con ramo y carta" style="display: none;">
+      <div id="bg-photos" aria-hidden="true">
+        <div class="photo-row row-right">
+          <img src="Nosotras/Imagen de WhatsApp 2025-08-15 a las 13.26.05_52473e4e.jpg" alt="Foto 1A" />
+          <img src="Nosotras/Imagen de WhatsApp 2025-08-15 a las 13.26.05_0b9be8a7.jpg" alt="Foto 1B" />
+          <img src="Nosotras/Imagen de WhatsApp 2025-08-15 a las 13.26.06_cea6cfab.jpg" alt="Foto 1C" />
+          <img src="Nosotras/Imagen de WhatsApp 2025-08-15 a las 13.26.07_4c35742f.jpg" alt="Foto 1D" />
+        </div>
+        <div class="photo-row row-left">
+          <img src="Nosotras/Imagen de WhatsApp 2025-08-15 a las 13.26.07_9da85ac5.jpg" alt="Foto 2A" />
+          <img src="Nosotras/Imagen de WhatsApp 2025-08-15 a las 13.26.08_0fc03153.jpg" alt="Foto 2B" />
+          <img src="Nosotras/Imagen de WhatsApp 2025-08-15 a las 13.26.08_dfc8b37d.jpg" alt="Foto 2C" />
+          <img src="Nosotras/Imagen de WhatsApp 2025-08-15 a las 13.26.08_f47c337e.jpg" alt="Foto 2D" />
+        </div>
+        <div class="photo-row row-right">
+          <img src="Nosotras/Imagen de WhatsApp 2025-08-15 a las 13.26.09_0c380925.jpg" alt="Foto 3A" />
+          <img src="Nosotras/Imagen de WhatsApp 2025-08-15 a las 13.26.09_dbb97a07.jpg" alt="Foto 3B" />
+          <img src="Nosotras/Imagen de WhatsApp 2025-08-15 a las 13.26.10_64589af4.jpg" alt="Foto 3C" />
+          <img src="Nosotras/Imagen de WhatsApp 2025-08-15 a las 13.26.10_d96b926b.jpg" alt="Foto 3D" />
+        </div>
+      </div>
+      <div id="gift-content">
+        <img id="bouquet" src="https://i.pinimg.com/736x/74/b3/22/74b32209112fba08cb894fad07004edf.jpg" alt="Ramo de tulipanes" />
+        <div id="letter-container" tabindex="0" aria-label="Carta cerrada. Presiona para abrir" role="button">
+          <div id="letter">
+            <div id="letter-front">
+              <img src="https://tse3.mm.bing.net/th/id/OIP.z-8-ooDN4p2r_zuV2A9V_QHaFS?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Carta cerrada" />
+            </div>
+            <div id="letter-back" aria-hidden="true">
+              <img src="https://i.pinimg.com/1200x/49/68/84/4968841670244b6d97cb6d4a5d526b4a.jpg" alt="Hoja con mensaje" class="paper-img" />
+              <div class="paper-message">
+                <p>
+                  Mi amada señorita Vitar<br><br>
+                  Considero que no es necesario esperar a una fecha ¨especia/importante¨ 
+                  para sorprender a la persona que amas, para mí, todos los días son especiales 
+                  e importantes porque está usted presente. Es usted el motivo de mi sonrisa, 
+                  dueña de mis suspiros y latidos, es usted quien encendió en mi la llama del amor, 
+                  la dueña de mi corazón, es usted y solo usted quien vive siempre presente 24/7 en 
+                  mi mente, corazón y alma. Solo espero el dia en que por fin pueda volver a verte de
+                  frente, poder volver a abrazarte, mientras eso sucede seguire esperandote pacientemente, 
+                  trabajando desde la distancia por mi por ti, por nosotras y un futuro juntas donde podamos 
+                  estar juntas sin miedo. Seguire amandote todos los dias con la misma intensidad por muy dificil 
+                  que pueda llegar a ser, sin importar que.<br><br>
+                  Que la distancia no sea un impedimento para mantener este amor, y no te haga olvidar
+                  lo mucho que te amo, y lo que significas para mi.<br><br>
+                  Con amor para usted❤<br>
+                  [Diana Reyes]
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <audio id="bg-music" loop preload="auto">
+      <source src="Nosotras/Ed Sheeran - Photograph (Official Music Video) [nSDgHBxUbVQ].mp3" type="audio/mpeg" />
+      Tu navegador no soporta audio.
+    </audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
